@@ -23,3 +23,5 @@ I ran into a few problems while trying this, so here's my advice to anyone else 
   * If the Step 0 workflow doesn't start on its own, you can start it manually in Actions.
 * If you want to use a different theme to `minima`, and you read [the Jekyll frontmatter docs](https://jekyllrb.com/docs/front-matter/) and the example there, be aware that not every theme has a `post` layout!
   * You can find out what layouts there are for the Github Pages builtin themes (the ones you can select in Settings > Pages) by looking at the repos in https://github.com/pages-themes and checking in their `_layouts` directories.
+* At the end of the tutorial, you have to manually add your post to the index page if you want to link it there.
+  * I added code to do this based on [Jekyll's own docs](https://jekyllrb.com/docs/posts/#displaying-an-index-of-posts) and [a StackOverflow post](https://stackoverflow.com/questions/43120788/jekyll-display-all-posts-in-the-same-page) that suggested using `post.excerpt` for preview text.
