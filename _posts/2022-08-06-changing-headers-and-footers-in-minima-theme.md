@@ -50,9 +50,9 @@ to `_config.yml`, and rename the index page to something with a plainer name (su
 
 ### Sources used
 
-[Setting up a GitHub Pages site with Jekyll - GitHub Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) - Github's own documentation about using Jekyll with Github pages
+[Setting up a GitHub Pages site with Jekyll - GitHub Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) - Github's own documentation about using Jekyll with Github pages.
 
-[Site Variables | Jekyll](https://jekyllrb.com/docs/variables/#site-variables) - Jekyll docs reference on site variables
+[Site Variables - Jekyll](https://jekyllrb.com/docs/variables/#site-variables) - Jekyll docs reference on site variables.
 
 [Configuration - Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) - Documentation from the "Minimal Mistakes" Jekyll theme about how to configure it. This is clearer than the Jekyll reference, I think, for the settings you're actually going to use when you start out.
 
