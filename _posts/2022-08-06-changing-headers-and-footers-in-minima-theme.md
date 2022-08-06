@@ -10,6 +10,7 @@ I added a blog title ("Under the Lamplight") to `index.md`, and that shows up in
 Let's take a look at the Minima layout we're using, `default`. [The HTML]([minima/default.html at master · jekyll/minima · GitHub](https://github.com/jekyll/minima/blob/master/_layouts/default.html)) is very simple:
 
 ```html
+{% raw %}
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
@@ -23,6 +24,7 @@ Let's take a look at the Minima layout we're using, `default`. [The HTML]([minim
     {%- include footer.html -%}
   </body>
 </html>
+{% endraw %}
 ```
 
 Those files aren't in `_layouts`, but are in [a directory]([minima/_includes at master · jekyll/minima · GitHub](https://github.com/jekyll/minima/tree/master/_includes)) called `_includes`. The information we're looking for is in `header.html` and `footer.html`.
