@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Under the Lamplight
+title: All posts
 ---
 
 {% for post in site.posts %}
