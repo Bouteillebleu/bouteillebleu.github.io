@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PicoCTF notes, part 1 - General Skills
+excerpt_separator: <!--more-->
 ---
 
 These are notes from the PicoCTF General Skills challenges I've done. Spoilers abound, though no flags.
@@ -8,6 +9,7 @@ These are notes from the PicoCTF General Skills challenges I've done. Spoilers a
 I'm working through these in an Ubuntu WSL2 instance, and using a Python 3.9.6 virtualenv where needed. Usually I'd use Poetry for dependency management, but for playing around like this, that seems like overkill - so pyenv and pyenv-virtualenv are all I need here.
 
 On to the challenges!
+<!--more-->
 
 ### Obedient Cat (5 points)
 
